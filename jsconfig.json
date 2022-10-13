@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ES6",
+        "paths": {
+            "@assets/*": ["./src/assets/*"],
+            "@components/*": ["./src/components/*"],
+            "@context/*": ["./src/context/*"],
+            "@firebase_connection/*": ["./src/firebase connection/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@routes/*": ["./src/routes/*"],
+            "@services/*": ["./src/services/*"],
+            "@styles/*": ["./src/stylests/*"],
+            "@utils/*": ["./src/utils/*"],
+        }
+    }
+}
