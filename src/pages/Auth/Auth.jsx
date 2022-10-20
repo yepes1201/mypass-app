@@ -1,4 +1,5 @@
 import { Navigate } from "react-router-dom";
+import { AuthForm } from "@components/AuthForm/AuthForm";
 
 import appLocker from "@assets/applocker.png";
 
@@ -15,7 +16,11 @@ export const Auth = ({ user }) => {
           secure passwords in one place.
         </p>
       </div>
-      <div className="auth__right">Auth</div>
+      <div className="auth__right">
+        <div className="auth__form">
+          <AuthForm />
+        </div>
+      </div>
     </div>
   );
 };
